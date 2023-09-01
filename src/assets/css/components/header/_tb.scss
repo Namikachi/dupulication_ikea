@@ -1,0 +1,31 @@
+@use "../../global/_mixin.scss" as m;
+
+@include m.mq(tb) {
+	.header {
+		padding-inline: 3rem 3rem;
+
+		&--fixed + .drawer + .t_overlay + .main {
+			margin-top: 123px;
+		}
+
+		&--fixed {
+			top: -90px;
+		}
+
+		&__topContainer {
+			height: 90px;
+		}
+
+		&__homeBtn {
+			padding-top: 0.9375rem;
+			padding-bottom: 0.9375rem;
+			height: 36px;
+		}
+
+		&__searchInput {
+			padding: 0.5rem;
+			padding-inline-start: 3.25rem;
+			padding-inline-end: 3.375rem;
+		}
+	}
+}

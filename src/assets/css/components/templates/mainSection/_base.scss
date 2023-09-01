@@ -1,0 +1,6 @@
+@use "../../../global/_mixin.scss" as m;
+
+.t_main-section {
+	margin-top: 2.5rem;
+	@include m.pc-grid-column();
+}

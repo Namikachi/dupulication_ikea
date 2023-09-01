@@ -1,0 +1,23 @@
+$breakpoint: (
+  ls: '(max-width: 37.5em)', // less than smartphone size
+  sp: '(min-width: 37.5em)', // smartphone
+  mt: '(min-width: 43.75em)', // mini tablet
+  tb: '(min-width: 56.25em)', // tablet
+  pc: '(min-width: 75em)' // pc
+);
+
+@mixin mq($bp) {
+  @media #{map-get($breakpoint, $bp)} {
+   @content;
+  }
+}
+
+@mixin pc-grid-layout() {
+  display: grid;
+  grid-template-columns: repeat(13, minmax(0, 1fr));
+  grid-column-gap: 1.25rem;
+}
+
+@mixin pc-grid-column() {
+  grid-column: 2 / 14;
+}

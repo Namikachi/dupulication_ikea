@@ -1,0 +1,17 @@
+.m_menu-button {
+	display: flex;
+	flex-direction: column;
+	grid-column: 1;
+	align-items: center;
+	align-self: center;
+	justify-content: center;
+
+	&__button {
+		display: none;
+		padding-top: 3px;
+		
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}

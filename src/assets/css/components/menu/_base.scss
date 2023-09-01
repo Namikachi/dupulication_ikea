@@ -1,0 +1,17 @@
+@use "../../global/_mixin.scss" as m;
+
+.menu {
+	display: none;
+	position: sticky;
+	top: 0;
+	z-index: 51;
+
+	&__wrapper {
+		position: absolute;
+		right: 3rem;
+		left: 1.25rem;
+
+		height: 90px;
+		@include m.pc-grid-layout();
+	}
+}

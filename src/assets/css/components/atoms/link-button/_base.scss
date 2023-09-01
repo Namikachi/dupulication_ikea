@@ -1,0 +1,40 @@
+.a_link-button {
+	box-sizing: border-box;
+	display: inline-flex;
+	flex-shrink: 0;
+	align-items: center;
+	border-radius: 64px;
+	box-shadow: inset 0 0 0 1px rgb(var(--color-black));
+	padding: 0 1.5rem;
+	width: fit-content;
+	height: fit-content;
+	min-height: 2.5rem;
+	line-height: 1.3333333333;
+	font-size: 0.75rem;
+	font-weight: 700;
+
+	&:hover {
+		box-shadow: inset 0 0 0 2px rgb(var(--color-black));
+	}
+
+	& > .svg-icon {
+		margin-inline-start: -0.5rem;
+		margin-inline-end: 0.5rem;
+	}
+
+	&--black {
+		background-color: rgb(var(--color-black));
+	}
+
+	&--black > &__text {
+		color: rgb(var(--color-white));
+	}
+
+	&--light-gray {
+		background-color: rgb(var(--color-light-gray));
+	}
+
+	&--topic {
+		display: none;
+	}
+}

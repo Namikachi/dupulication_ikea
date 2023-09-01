@@ -1,0 +1,27 @@
+.o_sale-cards {
+	&__list {
+		display: flex;
+		margin-right: calc(-1.25rem / 2);
+		margin-left: calc(-1.25rem / 2);
+	}
+
+	&__item {
+		flex-basis: calc(33.33% - 1.25rem);
+		flex-grow: 0;
+		flex-shrink: 0;
+		margin: calc(1.25rem / 2);
+
+		& > * {
+			margin-top: 1rem;
+		}
+	}
+
+	&__link {
+		display: flex;
+	}
+
+	&__image {
+		width: 100%;
+		height: auto;
+	}
+}

@@ -1,0 +1,13 @@
+@use "../../global/_mixin.scss" as m;
+
+@include m.mq(tb) {
+	.service {
+		&__list {
+			flex-wrap: nowrap;
+		}
+
+		&__item {
+			width: calc(25% - 8px*4);
+		}
+	}
+}

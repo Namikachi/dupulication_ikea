@@ -1,0 +1,12 @@
+.m_teaser-text {
+	margin-top: 0.5rem;
+
+	& a {
+		color: inherit;
+		text-decoration: underline;
+	}
+
+	& + & {
+		margin-top: 0.75rem;
+	}
+}

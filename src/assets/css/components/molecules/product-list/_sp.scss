@@ -1,0 +1,37 @@
+@use "../../../global/_mixin.scss" as m;
+
+@include m.mq(sp) {
+	.m_product-list {
+		&__item {
+			display: none;
+		}
+
+		&__link {
+			&--pc {
+				display: flex;
+			}
+
+			&--sp {
+				display: none;
+			}
+		}
+		&__cardLink {
+			min-width: 8.4375rem;
+		}
+
+		&__cardTitle {
+			line-height: 1.571;
+			font-size: 0.875rem;
+		}
+
+		&__dollar,
+		&__decimals {
+			line-height: 0.9;
+			font-size: 0.6875rem;
+		}
+
+		&__priceInteger {
+			font-size: 1.375rem;
+		}
+	}
+}

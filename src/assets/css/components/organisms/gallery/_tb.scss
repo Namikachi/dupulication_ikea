@@ -1,0 +1,38 @@
+@use "../../../global/_mixin.scss" as m;
+
+@include m.mq(tb) {
+	.o_gallery {
+		&__list {
+			grid-template-rows: repeat(7, minmax(0, 1fr));
+			grid-template-columns: repeat(4, minmax(0, 1fr));
+			grid-gap: 1.25rem;
+		}
+
+		&__item {
+			&:first-child {
+				grid-row: 1 / span 7;
+				grid-column: 1 / span 2;
+			}
+
+			&:nth-child(2) {
+				grid-row: 1 / span 3;
+				grid-column: 3 / span 1;
+			}
+
+			&:nth-child(3) {
+				grid-row: 1 / span 4;
+				grid-column: 4 / span 1;
+			}
+
+			&:nth-child(4) {
+				grid-row: 4 / span 4;
+				grid-column: 3 / span 1;
+			}
+
+			&:nth-child(5) {
+				grid-row: 5 / span 3;
+				grid-column: 4 / span 1;
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+.a_lead-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.75rem;
+  border: 0;
+  border-bottom: 1px solid rgb(var(--color-gray));
+  background: none;
+  cursor: pointer;
+  width: 100%;
+  min-height: 3.75rem;
+  overflow: hidden;
+  text-decoration: none;
+
+	&__text {
+    display: block;
+    line-height: 1.571;
+		font-size: 0.875rem;
+    font-weight: 700;
+	}
+}

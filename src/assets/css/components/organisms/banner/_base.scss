@@ -1,0 +1,36 @@
+.o_banner {
+	padding: 2.5rem;
+	padding-bottom: 60px;
+
+	& a {
+		margin-top: 2rem;
+	}
+
+	&--yellow {
+		background-color: var(--color-yellow);
+
+		& a {
+			background-color: rgb(var(--color-black));
+		}
+
+		& a span {
+			color: rgb(var(--color-white));
+		}
+	}
+
+	&--blue {
+		background-color: rgb(var(--color-blue));
+
+		& h2, p {
+			color: rgb(var(--color-white));
+		}
+
+		& .a_link-button {
+			background-color: rgb(var(--color-white));
+		}
+	}
+
+	& > div {
+		max-width: auto;
+	}
+}

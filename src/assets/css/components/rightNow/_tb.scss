@@ -1,0 +1,13 @@
+@use "../../global/_mixin.scss" as m;
+
+@include m.mq(tb) {
+	.rightNow {
+		&__item {
+			flex-basis: calc((100% - 20px * 3) / 3);
+		}
+
+		&__item:not(:last-child) {
+			margin-inline-end: 1.25rem;
+		}
+	}
+}

@@ -1,0 +1,24 @@
+@use "../../global/_mixin.scss" as m;
+
+@include m.mq(tb) {
+	.popularCategory {
+		&__listGrid {
+			display: grid;
+			grid-template-rows: repeat(3, auto);
+			grid-template-columns: repeat(5, auto);
+			justify-content: space-between;
+			margin-top: 2.5rem;
+		}
+
+		&__itemGrid {
+			box-sizing: border-box;
+			padding: 1rem;
+			width: 10.75rem;
+		}
+
+		&__listFlex,
+		&__more {
+			display: none;
+		}
+	}
+}

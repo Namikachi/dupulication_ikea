@@ -1,0 +1,28 @@
+@use "../../../global/_mixin.scss" as m;
+
+.a_icon-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 0.5rem;
+	min-height: 2.5rem;
+	
+	&:hover {
+		border-radius: 64px;
+		background-color: rgb(var(--color-gray));
+		cursor: pointer;
+	}
+
+	&__text {
+		display: none;
+		margin-left: 0.4rem;
+	}
+}
+
+@include m.mq(pc) {
+	.a_icon-button {
+		&__text {
+			display: inline;
+		}
+	}
+}

@@ -1,0 +1,17 @@
+@use "../../../global/_mixin.scss" as m;
+
+@include m.mq(tb) {
+	.o_teaser-container {
+		display: flex;
+		align-items: flex-end;
+		justify-content: space-between;
+	
+		& > div {
+			flex-basis: calc(7 / 12 * (100% - (11 * 1.25rem)) + (6 * 1.25rem));
+		}
+
+		& > a {
+			display: flex;
+		}
+	}
+}

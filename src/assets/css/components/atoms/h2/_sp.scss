@@ -1,0 +1,8 @@
+@use "../../../global/_mixin.scss" as m;
+
+@include m.mq(sp) {
+	.a_h2 {
+		line-height: 1.45;
+		font-size: 1.5rem;
+	}
+}
