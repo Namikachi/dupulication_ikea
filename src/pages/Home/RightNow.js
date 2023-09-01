@@ -1,4 +1,4 @@
-import '../../assets/css/components/rightNow/rightNow.scss';
+import '../../assets/css/pages/home/rightNow/rightNow.scss';
 import { ReactComponent as ArrowIcon } from '../../assets/images/arrow-icon.svg';
 import Headline from '../../components/atoms/Headline';
 

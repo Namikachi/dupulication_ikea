@@ -1,4 +1,4 @@
-import '../../assets/css/components/message/message.scss';
+import '../../assets/css/pages/home/message/message.scss';
 import Headline from '../../components/atoms/Headline';
 import MainSection from '../../components/templates/MainSection';
 

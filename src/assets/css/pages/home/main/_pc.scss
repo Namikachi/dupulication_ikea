@@ -1,0 +1,8 @@
+@use "../../../global/_mixin.scss" as m;
+
+@include m.mq(pc) {
+	.main {
+		@include m.pc-grid-layout();
+		padding-inline: 1.25rem 2.5rem;
+	}
+}

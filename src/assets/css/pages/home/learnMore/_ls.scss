@@ -1,0 +1,13 @@
+@use "../../../global/_mixin.scss" as m;
+
+@include m.mq(ls) {
+	.learnMore {
+		&__wrapper {
+			flex-direction: column;
+		}
+
+		&__inner:not(:last-child) {
+			margin-bottom: 2.5rem;
+		}
+	}
+}

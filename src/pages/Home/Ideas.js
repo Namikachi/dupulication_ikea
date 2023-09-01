@@ -1,4 +1,4 @@
-import '../../assets/css/components/ideas/ideas.scss';
+import '../../assets/css/pages/home/ideas/ideas.scss';
 import Headline from '../../components/atoms/Headline';
 import LinkButton from '../../components/atoms/LinkButton';
 import MainSection from '../../components/templates/MainSection';

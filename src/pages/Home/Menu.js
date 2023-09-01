@@ -1,4 +1,4 @@
-import '../../assets/css/components/menu/menu.scss';
+import '../../assets/css/pages/home/menu/menu.scss';
 import MenuButton from '../../components/molecules/MenuButton';
 
 function Menu({ isOpenedDrawer, setIsOpenedDrawer }) {

@@ -1,0 +1,20 @@
+@use "../../../global/_mixin.scss" as m;
+
+@include m.mq(sp) {
+	.rightNow {
+		&__cardInner {
+			margin: 0 -2rem;
+			padding-left: 2rem;
+			padding-right: 2rem;
+		}
+
+		&__item {
+			flex-basis:  calc(50% - (0.5rem / 2));
+		}
+
+		&__subTitle {
+			line-height: 2.5rem;
+			font-size: 1.5625rem;
+		}
+	}
+}

@@ -1,0 +1,24 @@
+@use "../../../global/_mixin.scss" as m;
+
+@include m.mq(tb) {
+	.drawer {
+		width: 30rem;
+
+		&__topWrapper {
+			padding: 1.75rem 1.875rem;
+		}
+
+		&__ikeaLink {
+			margin-left: calc(150px - 1.875rem);
+		}
+
+		&__list {
+			padding: 1.5rem 2rem 0 150px;
+		}
+
+		&__countryBtn {
+			padding-bottom: 1.5rem;
+			padding-left: 140px;
+		}
+	}
+}

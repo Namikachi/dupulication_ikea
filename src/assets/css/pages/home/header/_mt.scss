@@ -1,0 +1,32 @@
+@use "../../../global/_mixin.scss" as m;
+
+@include m.mq(mt) {
+	.header {
+		&__searchWrap {
+			display: flex;
+			margin-left: 2.5rem;
+
+			&--mt {
+				display: none;
+			}
+		}
+
+		&__searchInput {
+			padding-inline-start: 3rem;
+		}
+
+		&__iconItem {
+			& + & {
+				margin-left: 8px;
+			}
+		}
+
+		&__bottom {
+			margin-top: 0;
+		}
+
+		&__location {
+			margin: 3px 11px 4px;
+		}
+	}
+}

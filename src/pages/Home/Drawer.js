@@ -1,4 +1,4 @@
-import '../../assets/css/components/drawer/drawer.scss';
+import '../../assets/css/pages/home/drawer/drawer.scss';
 import { mainData, subData } from '../../data/menu/menu';
 import LinkButton from '../../components/atoms/LinkButton';
 import { ReactComponent as IkeaLogo } from '../../assets/images/ikea-logo.svg';

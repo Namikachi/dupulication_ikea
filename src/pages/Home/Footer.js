@@ -1,4 +1,4 @@
-import '../../assets/css/components/footer/footer.scss';
+import '../../assets/css/pages/home/footer/footer.scss';
 import { ReactComponent as FacebookIcon } from '../../assets/images/facebook-icon.svg';
 import { ReactComponent as InstagramIcon } from '../../assets/images/instagram-icon.svg';
 import { ReactComponent as PinterestIcon } from '../../assets/images/pinterest-icon.svg';

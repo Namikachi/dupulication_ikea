@@ -1,4 +1,4 @@
-import '../../assets/css/components/learnMore/learnMore.scss';
+import '../../assets/css/pages/home/learnMore/learnMore.scss';
 import LinkButton from '../../components/atoms/LinkButton';
 import MainSection from '../../components/templates/MainSection';
 

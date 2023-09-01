@@ -1,4 +1,4 @@
-import '../../assets/css/components/instagram/instagram.scss';
+import '../../assets/css/pages/home/instagram/instagram.scss';
 import Teaser from '../../components/molecules/Teaser';
 import MainSection from '../../components/templates/MainSection';
 

@@ -1,4 +1,4 @@
-import '../../assets/css/components/about/about.scss';
+import '../../assets/css/pages/home/about/about.scss';
 import Headline from '../../components/atoms/Headline';
 import MainSection from '../../components/templates/MainSection';
 

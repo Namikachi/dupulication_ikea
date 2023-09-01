@@ -1,0 +1,47 @@
+@use "../../../global/_mixin.scss" as m;
+
+@include m.mq(pc) {
+	.header {
+		padding-inline: 1.25rem 2.5rem;
+
+		&__top {
+			align-items: center;
+			@include m.pc-grid-layout();
+		}
+
+		&__searchWrap {
+			margin-left: 2rem;
+		}
+
+		&__iconItem {
+			&--profile {
+				min-width: 240px;
+			}
+
+			&--track {
+				display: block;
+			}
+
+			&--menu {
+				display: none;
+			}
+		}
+
+		&__profile {
+			padding: 0 1.25rem 0 0.85rem;
+		}
+	
+		&__bottom {
+			margin-top: -0.625rem;
+			@include m.pc-grid-layout();
+		}
+
+		&__bottomList {
+			display: flex;
+		}
+
+		&__location {
+			margin-bottom: 7px;
+		}
+	}
+}

@@ -1,4 +1,4 @@
-import '../../assets/css/components/popularCategory/popularCategory.scss';
+import '../../assets/css/pages/home/popularCategory/popularCategory.scss';
 import Headline from '../../components/atoms/Headline';
 
 import { data } from '../../data/popularCategories/popularCategories'

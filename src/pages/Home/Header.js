@@ -1,4 +1,4 @@
-import '../../assets/css/components/header/header.scss';
+import '../../assets/css/pages/home/header/header.scss';
 import { ReactComponent as IkeaLogo } from '../../assets/images/ikea-logo.svg';
 import { ReactComponent as PersonIcon } from '../../assets/images/person-icon.svg';
 import { ReactComponent as TrackIcon } from '../../assets/images/track-icon.svg';

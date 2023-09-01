@@ -1,0 +1,9 @@
+@use "../../../global/_mixin.scss" as m;
+
+@include m.mq(sp) {
+	.about {
+		&__wrapper {
+			margin-top: 4.6rem;
+		}
+	}
+}

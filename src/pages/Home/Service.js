@@ -1,5 +1,4 @@
-import '../../assets/css/components/service/service.scss';
-
+import '../../assets/css/pages/home/service/service.scss';
 import { data } from '../../data/service/service'
 import Headline from '../../components/atoms/Headline';
 import MainSection from '../../components/templates/MainSection';

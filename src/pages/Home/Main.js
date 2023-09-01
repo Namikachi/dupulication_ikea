@@ -1,4 +1,4 @@
-import '../../assets/css/components/main/main.scss';
+import '../../assets/css/pages/home/main/main.scss';
 import Topic from './Topic';
 import Offers from './Offers';
 import Sale from './Sale';
