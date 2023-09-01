@@ -34,9 +34,10 @@ function Header({ isOpenedDrawer, setIsOpenedDrawer}) {
 	
 	useEffect(() => {
 		const headerBottomPosition = headerBottomRef.current.getBoundingClientRect().top;
+		const currentScrollPosition = window.scrollY;
 		const header = headerRef.current;
     const onScroll = () => {
-      if (headerBottomPosition < window.scrollY) {
+      if (headerBottomPosition + currentScrollPosition < window.scrollY) {
 				header.className = "header header--fixed";
       } else {
 				header.className = "header";

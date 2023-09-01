@@ -16,7 +16,7 @@ function Ideas() {
 	const contentsImage = data.map(( item, i ) => {
 		const squareClass = i === 1 ? 'ideas__imgItem--square' : '';
 		return (
-			<li className={ 'ideas__imgItem ' + squareClass }>
+			<li className={ 'ideas__imgItem ' + squareClass } key={ i }>
 				<a href='./' className='ideas__imgLink'>
 					<span className='ideas__imgInner'>
 						<img className='ideas__img'

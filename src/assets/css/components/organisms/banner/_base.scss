@@ -7,7 +7,7 @@
 	}
 
 	&--yellow {
-		background-color: var(--color-yellow);
+		background-color: rgb(var(--color-yellow));
 
 		& a {
 			background-color: rgb(var(--color-black));
