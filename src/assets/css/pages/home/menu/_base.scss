@@ -5,6 +5,7 @@
 	position: sticky;
 	top: 0;
 	z-index: 51;
+	pointer-events: none;
 
 	&__wrapper {
 		position: absolute;
