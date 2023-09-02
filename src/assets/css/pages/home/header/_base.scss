@@ -3,8 +3,10 @@
 .header {
 	$parent: &;
 	box-sizing: border-box;
+	margin: 0 auto;
 	background-color: rgb(var(--color-white));
 	padding-inline: 1.25rem;
+	max-width: 112rem;
 
 	&--fixed {
 		position: fixed;
