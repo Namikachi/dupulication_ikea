@@ -2,8 +2,18 @@
 
 @include m.mq(tb) {
 	.rightNow {
+		&__cardInner {
+			margin: 0;
+			padding-right: 0;
+			padding-left: 0;
+		}
+
 		&__item {
 			flex-basis: calc((100% - 20px * 3) / 3);
+
+			&:last-child {
+				padding-inline-end: 0;
+			}
 		}
 
 		&__item:not(:last-child) {
